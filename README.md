@@ -8,7 +8,7 @@ Sparse matrices with similar dimensions, densities, and numbers of nonzeros can 
 
 SparseAtlas aims to bridge that gap by connecting real-world sparse matrices with reproducible structural representations and, ultimately, measured computational performance.
 
-## What Makes SparseAtlas Different?
+## Core Components
 
 SparseAtlas builds upon existing matrix collections, initially the [SuiteSparse Matrix Collection](https://sparse.tamu.edu/), rather than replacing them.
 
