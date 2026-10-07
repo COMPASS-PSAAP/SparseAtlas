@@ -14,14 +14,14 @@ SparseAtlas builds upon existing matrix collections, initially the [SuiteSparse 
 
 While existing collections provide matrices and their associated metadata, SparseAtlas focuses on **characterizing their computational structure and behavior**.
 
-The project brings together four complementary components:
+The project includes the following components:
 
 - **Curated and validated matrices:** Reproducible matrix selection, canonicalization, provenance tracking, and integrity verification.
 - **Structural characterization:** Multiresolution representations capturing sparsity patterns, spatial distributions, and other properties that conventional scalar descriptors may miss.
 - **Structural similarity and coverage:** Quantitative methods for identifying related matrices, selecting representative benchmarks, and evaluating the diversity of a corpus.
 - **Computational performance:** A developing framework for associating matrix structure with measurements across GPUs, sparse kernels, algorithms, and software environments.
 
-Together, these components are intended to support reproducible benchmarking, performance modeling, algorithm selection, and cross-platform performance analysis.
+These components are intended to support reproducible benchmarking, performance modeling, algorithm selection, and cross-platform performance analysis.
 
 ## Research Opportunities
 
@@ -33,7 +33,7 @@ SparseAtlas is designed to support questions such as:
 - Can structural representations learned for one sparse kernel transfer to other kernels?
 - How well do existing sparse-matrix collections cover the diversity of computational structures encountered in scientific applications?
 
-A central principle is that **the number of matrices in a benchmark is not necessarily a measure of its structural diversity**.
+An important principle of this project is that **the number of matrices in a benchmark is not necessarily a measure of its structural diversity**.
 
 ## Current Development
 
@@ -43,7 +43,7 @@ The initial corpus contains **1,743 validated and structurally characterized mat
 
 Current work focuses on reproducible canonicalization, deterministic multiresolution representations, structural similarity metrics, and systematic corpus coverage analysis.
 
-GPU SpMV benchmarking is the first planned computational-performance layer. Future development will extend the resource across additional hardware architectures and sparse kernels.
+GPU SpMV benchmarking is the first planned computational-performance layer. Future development will extend the resource across additional hardware architectures and kernels.
 
 ## Project Organization
 
