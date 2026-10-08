@@ -43,6 +43,8 @@ The initial corpus contains **1,743 validated and structurally characterized mat
 
 Current work focuses on reproducible canonicalization, deterministic multiresolution representations, structural similarity metrics, and systematic corpus coverage analysis.
 
+SparseAtlas characterizes matrices using distributions of nonzeros across rows and columns, diagonal structure, and multiresolution spatial statistics. These descriptors capture differences in concentration, irregularity, and sparsity-pattern organization that are not apparent from conventional matrix dimensions and density alone. The structural similarity space balances these feature families and separates structural characteristics from absolute matrix size.
+
 GPU SpMV benchmarking is the first planned computational-performance layer. Future development will extend the resource across additional hardware architectures and kernels.
 
 ## Project Organization
