@@ -4,9 +4,9 @@
 
 SparseAtlas is an open research project developing a curated and computationally characterized collection of sparse matrices. Its goal is to help researchers understand how sparse-matrix structure influences computational behavior across hardware architectures, algorithms, and scientific workloads.
 
-Sparse matrices with similar dimensions, densities, and numbers of nonzeros can exhibit dramatically different computational performance. Conventional matrix metadata often fails to capture the structural characteristics responsible for these differences.
+Sparse matrices with similar dimensions, densities, and numbers of nonzeros can exhibit dramatically different computational performance. Conventional matrix metadata not always captures the structural characteristics responsible for these differences.
 
-SparseAtlas aims to bridge that gap by connecting real-world sparse matrices with reproducible structural representations and, ultimately, measured computational performance.
+SparseAtlas aims to bridge that gap by connecting real-world sparse matrices with reproducible structural representations and measured computational performance.
 
 ## Core Components
 
